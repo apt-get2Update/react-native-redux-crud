@@ -7,6 +7,12 @@
 		error:false
 	}
 
+
+	export function getPeople(){
+		console.log('triggered')
+		return {type:FETCHING_PEOPLE};
+	}
+
 	export default function peopleReducer(state=initialState,action){
 		switch(action.type){
 			case FETCHING_PEOPLE:

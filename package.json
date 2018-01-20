@@ -20,8 +20,11 @@
   },
   "dependencies": {
     "expo": "^23.0.4",
+    "firebase": "^4.8.1",
+    "lodash": "^4.17.4",
     "react": "16.0.0",
     "react-native": "0.50.3",
+    "react-native-router-flux": "^4.0.0-beta.27",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
